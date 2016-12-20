@@ -27,9 +27,7 @@ public class Task implements Serializable {
 	public Task() {
 	}
 	
-	public Task(int id, String name, String description, Date dateCreated, boolean finished) {
-		super();
-		this.id = id;
+	public Task(String name, String description, Date dateCreated, boolean finished) {
 		this.name = name;
 		this.description = description;
 		this.dateCreated = dateCreated;
